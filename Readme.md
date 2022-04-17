@@ -26,7 +26,7 @@ _Types of opponents (differ in image):_
 2. Having two lives (changes color after the first hit on it)
 3. Fast motion
 
-The player can catch power-ups that will periodically fly down
+The player can catch power-ups that will periodically fly down. The time until it expires can be seen in the upper right corner of the screen.
 
 _Bonus types (differ in image):_
 * acceleration of the player's bullets
