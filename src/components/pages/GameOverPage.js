@@ -44,7 +44,7 @@ export default function GameOverPage() {
             <NameInput
               errorText={info.errorText}
               onChange={(event) => { setInfo({ name: event.target.value.trim() }) }} />
-            <ContinueButton type="button" value="Continue" onClick={() => submit()} />
+            <ContinueButton type="submit" value="Continue" onClick={() => submit()} />
 
           </GameOverForm>
         </GameOverPanel>
