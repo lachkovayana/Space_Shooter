@@ -1,0 +1,44 @@
+/* .fade-enter {
+    opacity: 1;
+    filter: grayscale(50);
+    transition: opacity 500ms;
+}
+
+.fade-enter-active {
+    opacity: 0;
+}
+
+.fade-enter-done {
+    opacity: 0;
+}
+
+.fade-exit {
+    opacity: 0;
+} */
+
+.shot-enter {
+    opacity: 1;
+    filter: hue-rotate(150deg);
+}
+
+.shot-enter-active {
+    opacity: 1;
+}
+
+.shot-enter-done {
+    opacity: 1;
+    filter: none;
+}
+
+.shot-exit {
+    opacity: 1;
+}
+
+.shot-exit-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.enshot-enter {
+    filter: grayscale(50);
+}
