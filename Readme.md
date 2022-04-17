@@ -1,1 +1,4 @@
-Run app with "npm start"
+
+Run app with
+1. npm i
+2. npm start
