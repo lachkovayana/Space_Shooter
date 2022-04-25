@@ -1,19 +1,5 @@
 
-## Run app with
-
-<code>
-  npm i 
-  </code>
- <br>
-  
-  <code>
-  npm start
-</code>
-
-<br>
-<br>
-
-## Some rules:
+## Some game rules:
 
 The player has two lives.
 
