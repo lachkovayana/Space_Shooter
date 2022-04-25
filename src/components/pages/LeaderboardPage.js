@@ -39,7 +39,7 @@ export default function LeaderboardPage() {
         return (
             <ol style={{ width: "100%", fontWeight: "600" }}>
                 {leaders.map((leader) =>
-                    <li>
+                    <li key={leader.name}>
                         <p style={{ display: "flex", justifyContent: "space-between" }}>
                             <span>{leader.name}</span>
                             <span>{leader.score}</span>
